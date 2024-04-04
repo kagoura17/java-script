@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.light-mode {
+  color: black;
+  background: white;
+  transition: 1s;
+}
+.dark-mode {
+  color: white;
+  background: rgb(0, 0, 0);
+  transition: 1s;
+}
+
